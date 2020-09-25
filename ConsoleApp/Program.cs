@@ -9,7 +9,7 @@ namespace ConsoleApp
     class Program
     {
 
-        private static readonly string _conn = "HostName=ecwin20-iothub.azure-devices.net;DeviceId=consoleapp;SharedAccessKey=8087yP5qbfLrLRgl7bl7Fn12pLiIGzcO9b8TY62TQCo=";
+        private static readonly string _conn = "HostName=ecwin20-iothub.azure-devices.net;DeviceId=consoleApp;SharedAccessKey=aGikBmVhuL6KxoeQB+nBgG3pj22ON2vNPYM8i2jiLPY=";
         
         private static readonly DeviceClient deviceClient = 
             DeviceClient.CreateFromConnectionString(_conn, TransportType.Mqtt); 
